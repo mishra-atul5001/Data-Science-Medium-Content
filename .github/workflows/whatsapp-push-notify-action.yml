@@ -1,0 +1,19 @@
+on: [push]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@master
+      - name: whatsapp-notify
+        id: whatsapp-notify
+        env:
+          account_sid: ${{ AC0de49fa805bbfe85ae0ce26d1d47a733 }}
+          auth_token: ${{ 6270fc33af1f3b06e8c19706ae5c44a5 }}
+          to_whatsapp_no: ${{ 8939445650 }}
+
+
+        uses: mishra-atul5001/whatsapp-push-notify-action@master
+      
+      - name : Run
+        run: |
+          echo 'Start!'
