@@ -12,3 +12,15 @@ Third Blog: [Hands On Diabetes](https://www.linkedin.com/posts/atul-mishra-5001_
 #### Adding Google Play Store data along with the Analysis as an inspection to figure out the market of APPS for ***Advertising purpose*** and ***R&D for a New APP***.
 
 - Stay tuned for more.
+
+git clone <repo-link>
+  
+git checkout -b dev-shreyansh/dev-chandan
+
+git add .
+
+git status
+
+git commit -m "Commit Notes"
+
+git push origin dev-shreyansh/dev-chandan
